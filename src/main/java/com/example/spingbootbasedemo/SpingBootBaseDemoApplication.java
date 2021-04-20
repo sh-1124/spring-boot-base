@@ -22,9 +22,11 @@ public class SpingBootBaseDemoApplication {
 
     public static void main(String[] args) {
         //设置关闭Banner
+        //user2增加了B功能
         SpringApplication springApplication = new SpringApplication(SpingBootBaseDemoApplication.class);
         springApplication.setBannerMode(Banner.Mode.OFF);
         springApplication.run(args);
+
     }
 
     @Bean
