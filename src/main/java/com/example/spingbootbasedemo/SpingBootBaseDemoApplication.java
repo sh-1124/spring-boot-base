@@ -24,6 +24,7 @@ public class SpingBootBaseDemoApplication {
         //设置关闭Banner
         //user2增加了B功能
         //user1增加了A功能
+        //user2新建分支dev
         SpringApplication springApplication = new SpringApplication(SpingBootBaseDemoApplication.class);
         springApplication.setBannerMode(Banner.Mode.OFF);
         springApplication.run(args);
